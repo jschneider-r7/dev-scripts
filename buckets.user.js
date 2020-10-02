@@ -1,10 +1,13 @@
 // ==UserScript==
 // @name         Buckets
 // @namespace    http://tampermonkey.net/
-// @version      0.9.1
+// @version      0.9.2
 // @description  extracts s3 buckets for cloud-app
 // @author       jschneider-r7
-// @match        https://razorci.osdc.lax.rapid7.com/job/r7-cloud-app-*/*/console*
+// @match        https://razorci.osdc.lax.rapid7.com/job/r7-cloud-app-PullRequestBucketBuilder/*/console*
+// @match        https://razorci.osdc.lax.rapid7.com/job/r7-cloud-app-BranchBucketBuilder/*/console*
+// @match        https://razorci.osdc.lax.rapid7.com/job/r7-cloud-app-/*/console*
+// @match        https://razorci.osdc.lax.rapid7.com/job/r7-cloud-app-staging-jagers/*/console*
 // @grant        none
 // ==/UserScript==
 
